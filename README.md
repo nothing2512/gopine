@@ -60,6 +60,9 @@ Global configuration for gopine project
 
 ```json
 {
+    "env": {
+      "data1": "value1"
+    },
     "server": {
         "host": "server host",
         "port": "server port"
@@ -89,6 +92,9 @@ Global configuration for gopine project
 > Example
 ```json
 {
+    "env": {
+      "data1": "value1"
+    },
     "server": {
         "host": "0.0.0.0",
         "port": "3333"
@@ -159,12 +165,12 @@ Full Example :
 - using global gopine executable
   ```shell
   $ cd <your-root-project>
-  $ gopine
+  $ gopine help
   ```
 - using local gopine executable
   ```shell
   $ cd <your-root-project>
-  $ ./gopine
+  $ ./gopine help
   ```
 
 ## Containerization
