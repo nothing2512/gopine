@@ -1,0 +1,5 @@
+bin
+gopine.go
+go.mod
+go.sum
+build.sh

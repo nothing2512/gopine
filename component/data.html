@@ -1,0 +1,13 @@
+<!--suppress ALL -->
+<div x-data="component">
+    <h1 x-text="title"></h1>
+    <button x-on:click="setTitle()">Change Component Title</button>
+</div>
+<script type="application/javascript" rel="gopine">
+    injectComponent("component", {
+        "title": "Component Title",
+        setTitle() {
+            this.title = "Component Title Changed"
+        }
+    })
+</script>

@@ -1,0 +1,15 @@
+<!--suppress ALL -->
+<h1 x-text="title"></h1>
+<button x-on:click="setTitle()">Change Title</button>
+<br>
+<script type="application/javascript" rel="gopine">
+    inject({
+        title: "Title",
+        setTitle() {
+            this.title = "Gopine"
+        },
+        init() {
+            console.log(this.request)
+        }
+    })
+</script>
